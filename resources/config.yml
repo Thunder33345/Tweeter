@@ -1,0 +1,12 @@
+# Authentication
+consumer-key: zQ2PLFLgIYmPMgqcXxMmcQRiq
+consumer-secret: a6n3gkLuitxCMhdU9wEilm1KjIFrF1HKfAhfycn2i0T9BLaA06
+access-token: 871691833054810112-VFy5rro6V6SK2Eox8nWbabro6cjT2fy
+access-secret: FWrt98tE7ezwYtlcAaFTzuwYVGc4hHfPc4CRpxJShaBXn
+
+# Startup and Shutdown Messages
+startup: We are now back online. See you there!
+shutdown: Oops... We are experiencing some downtime!
+
+# To enable debugging head over to TwitterAPI\TwitterAPIExchange,
+# then see the text on line 6.

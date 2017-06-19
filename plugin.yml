@@ -1,0 +1,37 @@
+name: Tweeter
+version: 1.0.0
+author: NFGamerMC
+api: [3.0.0-ALPHA5]
+main: NFGamerMC\Base
+commands:
+ post:
+  description: "Sends a tweet to another user."
+  usage: "/post <message>"
+  permission: cmd.post
+
+ get:
+  description: "Grabs another users tweets."
+  usage: "/get <username> <amount>"
+  permission: cmd.get
+
+ dm:
+  description: "Sends a DM to someone."
+  usage: "/dm <username> <message>"
+  permission: cmd.dm
+
+
+
+permissions:
+cmd.post:
+default: op
+description: "Tweeter Permission Node"
+
+cmd.get:
+default: true
+description: "Tweeter Permission Node"
+
+cmd.dm:
+default: op
+description: "Tweeter Permission Node"
+
+
