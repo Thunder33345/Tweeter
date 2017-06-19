@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/PluginStream/Tweetr
+branches:
+- master
+projects:
+  Tweetr:
+    path: ""
+    icon: "icon.png"
+...
