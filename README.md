@@ -16,6 +16,10 @@ A: PluginStream
 
 A: In the name of open source, i hereby CANNOT tolerate nor stand such bullshit and i am here to cleanse it of such
 
+## Q: Where da phar?
+
+A: You can head over and grat one at poggit https://poggit.pmmp.io/ci/Thunder33345/Tweeter/~
+
 ### Q: It dosent work pls fix it!!!
 
 A: I do not provide any support for their plugin and i am only here to cleanse that watermark,
