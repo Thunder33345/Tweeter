@@ -1,3 +1,11 @@
+# DISCLAMER:
+
+# I Thunder33345 hereby claim that I DO NOT claim rights nor attribution of owning this(Tweeter plugin) nor have any intention to claim this work as mine
+
+# I Thunder33345 is only here to modify the original plugin into one which has no watermark bullshit
+
+# This plugin is forked from https://github.com/PluginStream/Tweeter which if you are intrested you are free to check the original author out
+
 ## Tweeter
 > This plugin was developed by @NFGamerMC with some great contributors such as @Matthww
 ------

@@ -27,7 +27,7 @@ class Base extends PluginBase implements Listener{
         $url = 'https://api.twitter.com/1.1/statuses/update.json';
         $requestMethod = 'POST';
         $postfields = array(
-            'status' => $this->getConfig()->get("startup") . ' - Sent using @TweeterPlugin',
+            'status' => $this->getConfig()->get("startup"),
         );
         $twitter = new TwitterAPIExchange($settings);
         echo $twitter->buildOauth($url, $requestMethod)->setPostfields($postfields)->performRequest(true, [
@@ -47,7 +47,7 @@ class Base extends PluginBase implements Listener{
         $requestMethod = 'POST';
         $msg = (implode(" ", array_slice($args, 0)));
         $postfields = array(
-            'status' => $this->getConfig()->get("shutdown") . ' - Sent using @TweeterPlugin',
+            'status' => $this->getConfig()->get("shutdown"),
         );
         $twitter = new TwitterAPIExchange($settings);
         echo $twitter->buildOauth($url, $requestMethod)->setPostfields($postfields)->performRequest(true, [
@@ -70,7 +70,7 @@ class Base extends PluginBase implements Listener{
                     $requestMethod = 'POST';
                     $msg = (implode(" ", array_slice($args, 0)));
                     $postfields = array(
-                        'status' => $msg . ' - Sent using @TweeterPlugin',
+                        'status' => $msg,
                     );
                     $twitter = new TwitterAPIExchange($settings);
                     echo $twitter->buildOauth($url, $requestMethod)->setPostfields($postfields)->performRequest(true, [
@@ -126,7 +126,7 @@ class Base extends PluginBase implements Listener{
                     $msg = (implode(" ", array_slice($args, 1)));
                     $postfields = array(
                         'screen_name' => $args[0],
-                        'text' => $msg . ' - Sent using @TweeterPlugin',
+                        'text' => $msg,
                     );
                     $twitter = new TwitterAPIExchange($settings);
                     echo $twitter->buildOauth($url, $requestMethod)->setPostfields($postfields)->performRequest(true, [
